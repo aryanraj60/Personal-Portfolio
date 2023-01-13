@@ -37,14 +37,14 @@ const youtubeClone = () => {
             applications that mimic the functionality of popular platforms.
           </p>
           <a
-            href=""
+            href="https://youtube-clone-indol-mu.vercel.app/"
             target="_blank"
             class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-10 py-2.5 text-center mr-4"
           >
             Demo
           </a>
           <a
-            href=""
+            href="https://github.com/aryanraj60/Youtube-Clone"
             target="_blank"
             class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-10 py-2.5 text-center"
           >
@@ -67,9 +67,6 @@ const youtubeClone = () => {
               <p className="text-gray-600 py-2 flex items-center gap-2">
                 <RiRadioButtonFill /> RapidAPI
               </p>
-              {/* <p className="text-gray-600 py-2 flex items-center gap-2">
-                <RiRadioButtonFill /> Stripe
-              </p> */}
             </div>
           </div>
         </div>
