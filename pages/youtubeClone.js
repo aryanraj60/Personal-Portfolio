@@ -57,7 +57,7 @@ const youtubeClone = () => {
             <p className="flex justify-center text-xl font-bold pb-2">
               Technologies
             </p>
-            <div className="flex justify-between md:flex-col md">
+            <div className="flex flex-wrap justify-between md:flex-col md">
               <p className="text-gray-600 py-2 flex items-center gap-2">
                 <RiRadioButtonFill /> ReactJS
               </p>
