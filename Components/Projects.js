@@ -3,6 +3,7 @@ import Link from "next/link";
 import Project from "./Project";
 import ecommerceProjectImg from "../public/assests/ecommerceProject.png";
 import youtubeClone from "../public/assests/tube.io.png";
+import musicPlayer from "../public/assests/MusicPlayer.png";
 
 const Projects = () => {
   return (
@@ -24,6 +25,12 @@ const Projects = () => {
             tech="ReactJS"
             backgroundImg={youtubeClone}
             url="/youtubeClone"
+          />
+          <Project
+            name="Music Player"
+            tech="ReactJS"
+            backgroundImg={musicPlayer}
+            url="/musicPlayer"
           />
         </div>
       </div>
