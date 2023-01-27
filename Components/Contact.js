@@ -19,7 +19,6 @@ const Contact = () => {
               <div className="card w-full md:w-[60%] m-auto py-2 px-3 bg-white rounded-xl shadow-lg shadow-gray-300">
                 <BiMailSend className="m-auto" size="2rem" />
                 <p className="text-gray-800 text-xl font-bold my-1">Email</p>
-                <p className="text-gray-500">aryanraj234.ar@gmail.com</p>
                 <a
                   href="mailto:aryanraj234.ar@gmail.com"
                   className="text-gray-600 text-lg mt-4 inline-block cursor-pointer hover:scale-105 transition ease-in"
@@ -34,7 +33,6 @@ const Contact = () => {
               <div className="card w-full md:w-[60%] m-auto py-2 px-3 my-4 bg-white rounded-xl shadow-lg shadow-gray-300">
                 <BsWhatsapp className="m-auto" size="1.7rem" />
                 <p className="text-gray-800 text-xl font-bold my-1">Whatsapp</p>
-                <p className="text-gray-500">7014-488-092</p>
                 <a
                   href="https://api.whatsapp.com/send?phone=918094096657"
                   target="_blank"
