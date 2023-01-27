@@ -26,7 +26,12 @@ const Navbar = () => {
 
   useEffect(() => {
     console.log("I'm useffect to change nav bg");
-    if (pathname === "/ecommerce" || pathname === "/youtubeClone") {
+    if (
+      pathname === "/ecommerce" ||
+      pathname === "/youtubeClone" ||
+      pathname === "/musicPlayer" ||
+      pathname === "/primeClone"
+    ) {
       setOnProjectPage(true);
     } else {
       setOnProjectPage(false);
@@ -89,9 +94,7 @@ const Navbar = () => {
                 </div>
               </div>
               <div className="my-4 border-b border-gray-300">
-                <p className="py-4">
-                  Let's build something legendary together!
-                </p>
+                <p className="py-4">Let's build something great together!</p>
               </div>
             </div>
             <div className="py-4">
@@ -112,25 +115,6 @@ const Navbar = () => {
                   <li className="py-4 text-lg">Contact</li>
                 </Link>
               </ul>
-              <div className="pt-24 mb-5">
-                <p className="uppercase text-xl tracking-widest text-[#5651e5]">
-                  Let's Connect
-                </p>
-                <div className="flex my-6 justify-between">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn size={20} />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaGithub size={20} />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <AiOutlineMail size={20} />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <BsFillPersonLinesFill size={20} />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

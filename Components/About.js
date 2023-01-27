@@ -19,21 +19,13 @@ const About = () => {
               trends in web development to deliver high-quality projects to my
               clients.
             </p>
-            {/* <p className="py-2 text-gray-600">
-              // Lorem tempor quis sit pariatur quis elit ea anim ad sint ea //
-              consectetur irure veniam. Adipisicing dolore exercitation deserunt
-              // ullamco quis. Officia eu dolor ex aliqua exercitation mollit
-              irure // duis ipsum nisi. Aliquip quis consectetur reprehenderit
-              cupidatat // pariatur ea tempor eiusmod officia tempor aliqua ad
-              aliquip. // Excepteur do magna minim dolore irure reprehenderit
-              ullamco // exercitation eiusmod amet ut do consectetur in. Irure
-              enim irure
-            </p> */}
             <button
               type="button"
               className="text-white mt-5 flex items-center gap-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-5 py-3 text-center hover:scale-105 transition ease-in-out duration-200"
             >
-              <span> Download Resume</span>
+              <a href="https://aryanraj.tech/assests/resume.pdf" download>
+                Download Resume
+              </a>
               <span>
                 <CgFileDocument size={20} />
               </span>
@@ -70,7 +62,9 @@ const About = () => {
               type="button"
               className="text-white m-auto mt-5 flex items-center gap-3 bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg text-base px-5 py-3.5 text-center hover:scale-105 transition ease-in-out duration-200"
             >
-              <span>Download Resume</span>
+              <a href="https://aryanraj.tech/assests/resume.pdf" download>
+                Download Resume
+              </a>
               <span>
                 <CgFileDocument size={20} />
               </span>

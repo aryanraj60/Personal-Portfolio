@@ -4,6 +4,7 @@ import Project from "./Project";
 import ecommerceProjectImg from "../public/assests/ecommerceProject.png";
 import youtubeClone from "../public/assests/tube.io.png";
 import musicPlayer from "../public/assests/MusicPlayer.png";
+import primeImg from "../public/assests/prime-clone.png";
 
 const Projects = () => {
   return (
@@ -31,6 +32,12 @@ const Projects = () => {
             tech="ReactJS"
             backgroundImg={musicPlayer}
             url="/musicPlayer"
+          />
+          <Project
+            name="Amazon Prime Clone"
+            tech="ReactJS"
+            backgroundImg={primeImg}
+            url="/primeClone"
           />
         </div>
       </div>

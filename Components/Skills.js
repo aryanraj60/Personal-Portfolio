@@ -65,9 +65,9 @@ const Skills = () => {
 
           <div className="cursor-pointer w-[130px] hover:scale-110 transition ease-in duration-200">
             <div className="shadow-lg shadow-slate-500 flex items-center justify-center px-3 py-5 w-[90px] m-auto h-[90px] rounded-full bg-[#fff]">
-              <img src="/assests/hardhat.png" className="w-[50px] h-[50px]" />
+              <img src="/assests/redux.png" className="w-[50px] h-[50px]" />
             </div>
-            <p className="p-2">Hardhat</p>
+            <p className="p-2">Redux</p>
           </div>
         </div>
       </div>

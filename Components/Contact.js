@@ -35,7 +35,11 @@ const Contact = () => {
                 <BsWhatsapp className="m-auto" size="1.7rem" />
                 <p className="text-gray-800 text-xl font-bold my-1">Whatsapp</p>
                 <p className="text-gray-500">7014-488-092</p>
-                <a className="text-gray-600 text-lg mt-4 inline-block cursor-pointer hover:scale-105 transition ease-in">
+                <a
+                  href="https://api.whatsapp.com/send?phone=918094096657"
+                  target="_blank"
+                  className="text-gray-600 text-lg mt-4 inline-block cursor-pointer hover:scale-105 transition ease-in"
+                >
                   <p className="inline">Write Me</p>
                   <span className="inline">
                     <BsArrowRightShort className="inline" size="1.4rem" />
