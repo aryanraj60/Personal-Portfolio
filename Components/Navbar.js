@@ -30,7 +30,8 @@ const Navbar = () => {
       pathname === "/ecommerce" ||
       pathname === "/youtubeClone" ||
       pathname === "/musicPlayer" ||
-      pathname === "/primeClone"
+      pathname === "/primeClone" ||
+      pathname === "/linkedinClone"
     ) {
       setOnProjectPage(true);
     } else {
