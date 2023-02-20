@@ -29,21 +29,6 @@ const Contact = () => {
                   </span>
                 </a>
               </div>
-
-              <div className="card w-full md:w-[60%] m-auto py-2 px-3 my-4 bg-white rounded-xl shadow-lg shadow-gray-300">
-                <BsWhatsapp className="m-auto" size="1.7rem" />
-                <p className="text-gray-800 text-xl font-bold my-1">Whatsapp</p>
-                <a
-                  href="https://api.whatsapp.com/send?phone=918094096657"
-                  target="_blank"
-                  className="text-gray-600 text-lg mt-4 inline-block cursor-pointer hover:scale-105 transition ease-in"
-                >
-                  <p className="inline">Write Me</p>
-                  <span className="inline">
-                    <BsArrowRightShort className="inline" size="1.4rem" />
-                  </span>
-                </a>
-              </div>
             </div>
           </div>
 
