@@ -6,6 +6,7 @@ import youtubeClone from "../public/assests/tube.io.png";
 import musicPlayer from "../public/assests/MusicPlayer.png";
 import primeImg from "../public/assests/prime-clone.png";
 import linkedinImg from "../public/assests/linked-in-clone.png";
+import whatsappImg from "../public/assests/whatsapp-clone.png";
 
 const Projects = () => {
   return (
@@ -45,6 +46,12 @@ const Projects = () => {
             tech="ReactJS"
             backgroundImg={linkedinImg}
             url="/linkedinClone"
+          />
+          <Project
+            name="Whatsapp Clone"
+            tech="NextJS"
+            backgroundImg={whatsappImg}
+            url="/whatsappClone"
           />
         </div>
       </div>
