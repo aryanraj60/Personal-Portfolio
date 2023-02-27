@@ -32,7 +32,7 @@ const Navbar = () => {
       pathname === "/musicPlayer" ||
       pathname === "/primeClone" ||
       pathname === "/linkedinClone" ||
-      pathname === "/whatsappClone"
+      pathname === "/chatApp"
     ) {
       setOnProjectPage(true);
     } else {

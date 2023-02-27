@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import whatsappImg from "../public/assests/whatsapp-clone.png";
+import chatAppImg from "../public/assests/whatsapp-clone.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const youtubeClone = () => {
+const chatApp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10"></div>
-        <Image src={whatsappImg} fill="fill" style={{ objectFit: "cover" }} />
+        <Image src={chatAppImg} fill="fill" style={{ objectFit: "cover" }} />
         <div className="absolute px-2 w-full max-w-7xl left-[50%] right-[50%] top-[55%] translate-x-[-50%] text-white z-10">
-          <h2 className="py-2 text-slate-50">Whatsapp Clone</h2>
+          <h2 className="py-2 text-slate-50">Chat App</h2>
           <h3 className="text-slate-50">NextJS / Firebase / Tailwind</h3>
         </div>
       </div>
@@ -70,4 +70,4 @@ const youtubeClone = () => {
   );
 };
 
-export default youtubeClone;
+export default chatApp;
