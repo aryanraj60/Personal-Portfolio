@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import linkedInImg from "../public/assests/linked-in-clone.png";
+import bookingioImg from "../public/assests/booking-io.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const linkedinClone = () => {
+const BookingApp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10"></div>
         <Image
-          src={linkedInImg}
+          src={bookingioImg}
           className=""
           fill="fill"
           style={{ objectFit: "cover" }}
         />
         <div className="absolute px-2 w-full max-w-7xl left-[50%] right-[50%] top-[55%] translate-x-[-50%] text-white z-10">
-          <h2 className="py-2 text-slate-50">LinkedIn Clone</h2>
+          <h2 className="py-2 text-slate-50">Booking App</h2>
           <h3 className="text-slate-50">
-            ReactJS / Firebase / Redux / Tailwind
+            MongoDB / Express / ReactJS / NodeJS
           </h3>
         </div>
       </div>
@@ -29,22 +29,24 @@ const linkedinClone = () => {
           </p>
           <h2 className="text-3xl tracking-wider">Overview</h2>
           <p className="py-4 text-gray-600 text-lg">
-            It's a LinkedIn clone built using Firebase Auth for authentication,
-            Firestore of Firebase for storing user posts, Redux for state
-            management, and Tailwind for styling. Firebase Auth provides
-            authentication services, Firebase Firestore offers real-time
-            database functionality, TailwindCSS provides quick styling for the
-            UI, and Redux is used for managing the application's state.
+            It is a home renting and booking web application built using the
+            MERN (MongoDB, Express, React, Node.js) stack. This application
+            allows users to register, list their places, and book any available
+            places listed by other users. I chose the MERN stack for this
+            project due to its flexibility, scalability, and popularity among
+            developers. Through this project, I gained hands-on experience
+            working with different technologies and frameworks, improving my
+            understanding of full-stack development.
           </p>
           <a
-            href="https://linkedin-clone-a8efd.web.app/"
+            href="https://booking-io-ten.vercel.app/"
             target="_blank"
             class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-10 py-2.5 text-center mr-4"
           >
             Demo
           </a>
           <a
-            href="https://github.com/aryanraj60/LinkedIn-Clone"
+            href="https://github.com/aryanraj60/Booking.io"
             target="_blank"
             class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl font-medium rounded-lg text-sm px-10 py-2.5 text-center"
           >
@@ -62,13 +64,13 @@ const linkedinClone = () => {
                 <RiRadioButtonFill /> ReactJS
               </p>
               <p className="text-gray-600 py-2 flex items-center gap-2">
-                <RiRadioButtonFill /> Redux
+                <RiRadioButtonFill /> MongoDB
               </p>
               <p className="text-gray-600 py-2 flex items-center gap-2">
-                <RiRadioButtonFill /> Firebase Auth
+                <RiRadioButtonFill /> Express
               </p>
               <p className="text-gray-600 py-2 flex items-center gap-2">
-                <RiRadioButtonFill /> Firebase Firestore
+                <RiRadioButtonFill /> NodeJS
               </p>
               <p className="text-gray-600 py-2 flex items-center gap-2">
                 <RiRadioButtonFill /> Tailwind
@@ -81,4 +83,4 @@ const linkedinClone = () => {
   );
 };
 
-export default linkedinClone;
+export default BookingApp;

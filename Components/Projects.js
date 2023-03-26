@@ -5,8 +5,8 @@ import ecommerceProjectImg from "../public/assests/ecommerceProject.png";
 import youtubeClone from "../public/assests/tube.io.png";
 import musicPlayer from "../public/assests/MusicPlayer.png";
 import primeImg from "../public/assests/prime-clone.png";
-import linkedinImg from "../public/assests/linked-in-clone.png";
 import chatAppImg from "../public/assests/whatsapp-clone.png";
+import bookingioImg from "../public/assests/booking-io.png";
 
 const Projects = () => {
   return (
@@ -42,10 +42,10 @@ const Projects = () => {
             url="/primeClone"
           />
           <Project
-            name="LinkedIn Clone"
-            tech="ReactJS"
-            backgroundImg={linkedinImg}
-            url="/linkedinClone"
+            name="Booking App"
+            tech="MERN Stack"
+            backgroundImg={bookingioImg}
+            url="/bookingApp"
           />
           <Project
             name="Chat App"
