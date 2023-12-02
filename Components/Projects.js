@@ -7,6 +7,7 @@ import musicPlayer from "../public/assests/MusicPlayer.png";
 import primeImg from "../public/assests/prime-clone.png";
 import chatAppImg from "../public/assests/whatsapp-clone.png";
 import bookingioImg from "../public/assests/booking-io.png";
+import doctorImg from "../public/assests/doctor.io.png";
 
 const Projects = () => {
   return (
@@ -18,6 +19,18 @@ const Projects = () => {
         <h2 className="py-1 mb-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <Project
+            name="Music Player"
+            tech="ReactJS"
+            backgroundImg={musicPlayer}
+            url="/musicPlayer"
+          />
+          <Project
+            name="Doctor.io"
+            tech="MERN"
+            backgroundImg={doctorImg}
+            url="/doctorApp"
+          />
+          <Project
             name="Ecommerce Store"
             tech="NextJS"
             backgroundImg={ecommerceProjectImg}
@@ -28,12 +41,6 @@ const Projects = () => {
             tech="ReactJS"
             backgroundImg={youtubeClone}
             url="/youtubeClone"
-          />
-          <Project
-            name="Music Player"
-            tech="ReactJS"
-            backgroundImg={musicPlayer}
-            url="/musicPlayer"
           />
           <Project
             name="Amazon Prime Clone"
