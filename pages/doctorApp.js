@@ -40,7 +40,7 @@ const doctorApp = () => {
 
           <p>
             You can use these sample login details 👇🏻 <br /> Email -
-            <strong> test@gmail.com</strong> password -{" "}
+            <strong> test@gmail.com</strong> Password -{" "}
             <strong>test@123</strong>
           </p>
           <div className="mt-5">

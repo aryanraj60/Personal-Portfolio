@@ -8,6 +8,7 @@ import primeImg from "../public/assests/prime-clone.png";
 import chatAppImg from "../public/assests/whatsapp-clone.png";
 import bookingioImg from "../public/assests/booking-io.png";
 import doctorImg from "../public/assests/doctor.io.png";
+import profitPulse from "../public/assests/profitPulse.png";
 
 const Projects = () => {
   return (
@@ -25,34 +26,28 @@ const Projects = () => {
             url="/musicPlayer"
           />
           <Project
+            name="ProfitPulse"
+            tech="MERN"
+            backgroundImg={profitPulse}
+            url="/profitPulse"
+          />
+          <Project
             name="Doctor.io"
             tech="MERN"
             backgroundImg={doctorImg}
             url="/doctorApp"
           />
           <Project
-            name="Ecommerce Store"
-            tech="NextJS"
-            backgroundImg={ecommerceProjectImg}
-            url="/ecommerce"
-          />
-          <Project
-            name="Youtube Clone"
-            tech="ReactJS"
-            backgroundImg={youtubeClone}
-            url="/youtubeClone"
+            name="Booking.io"
+            tech="MERN Stack"
+            backgroundImg={bookingioImg}
+            url="/bookingApp"
           />
           <Project
             name="Amazon Prime Clone"
             tech="ReactJS"
             backgroundImg={primeImg}
             url="/primeClone"
-          />
-          <Project
-            name="Booking App"
-            tech="MERN Stack"
-            backgroundImg={bookingioImg}
-            url="/bookingApp"
           />
           <Project
             name="Chat App"
